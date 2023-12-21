@@ -1,0 +1,23 @@
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+.usertextwrapper {
+    display: flex;
+    justify-content: center;
+
+}
+#typedText {
+    width: 60%;
+    height: 250px;
+}
+
+.statswrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

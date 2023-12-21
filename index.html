@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:.">
+    <style>
+        .correct {
+            background-color: green;
+        }
+
+        .incorrect {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id = "timer">60s</h1>
+    <h3 id="paragraph"></h3>
+    <div class = "usertextwrapper">
+    <textarea id="typedText" name="Type to Start"></textarea>
+    </div>
+    <div class = "statswrapper">
+    <h2 id = "wpm">Wpm: 0</h2>
+    <h2 id = "mistakes">Mistakes: 0</h2>
+    <h2 id = "accuracy">Accuracy: 100%</h2>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
